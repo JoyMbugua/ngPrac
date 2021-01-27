@@ -124,5 +124,15 @@
       }
     }
   },
-  "defaultProject": "todo-list"
+  "defaultProject": "todo-list",
+  "cli": {
+    "analytics": "9d749a70-d0c6-47dd-9c27-5ced3a9de337"
+  },
+  "schematics": {
+    "@schematics/angular": {
+      "component": {
+        "inlineTemplate": true
+      }
+    }
+  }
 }
