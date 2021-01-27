@@ -12,9 +12,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputButtonListComponent implements OnInit {
   title='Hello world'
-  constructor() { }
+
+  changeTitle(newTitle: string){
+    this.title = newTitle;
+  }
+  constructor() { 
+    this.changeTitle('I love Angular');
+  }
 
   ngOnInit(): void {
+    this.title ='Angular rules!'
   }
 
 }
